@@ -6,14 +6,21 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title><%= htmlWebpackPlugin.options.title %></title>
-    <script src="https://cdn.bootcdn.net/ajax/libs/vue/3.0.2/vue.esm-bundler.js"></script>
+    <meta name="keyword" content="我的名字是卢卢">
+    <meta name="description" value = "我是做什么的">
+    <!-- <script src="https://cdn.bootcdn.net/ajax/libs/vue/2.6.12/vue.js"></script> -->
+    <script src='https://cdn.bootcdn.net/ajax/libs/vue/2.6.12/vue.runtime.min.js'></script>
+
   </head>
   <body>
     <noscript>
       <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
     <div id="app">
-      {{n}}
+      <h1>前端初级工程师</h1>
+      <a href="#" >详情内容页面</a>
+      <!-- {{n}} -->
+      <!-- <button @click = 'add'>点我+1</button> -->
     </div>
     
     <!-- built files will be auto injected -->
