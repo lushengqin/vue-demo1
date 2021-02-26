@@ -11,7 +11,6 @@
 
 export default {
   name: 'App',
-  
   data(){
     return{
       n:0
